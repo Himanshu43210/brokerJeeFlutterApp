@@ -1,0 +1,60 @@
+# Flutter/Dart/Pub related
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+# Uncomment below line if you have a precompiled Flutter SDK
+# flutter/
+
+# Miscellaneous
+*.class
+*.lock
+*.log
+*.sql
+*.sqlite
+*.pdf
+*.zip
+*.tar.gz
+*.tgz
+*.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Android
+local.properties
+/.gradle
+/captures/
+/outputs/
+/*.keystore
+*.jks
+
+# iOS
+# Flutter recommends not ignoring Podfile.lock
+# Pods/
+/Podfile.lock
+/Flutter/Flutter.framework
+/Flutter/Flutter.podspec
+/Flutter/App.framework
+/Flutter/ephemeral/
+/Flutter/Flutter.podspec.lock
+
+# Firebase/Google services
+google-services.json
+*.plist
+
+# Flutter generated files
+# Generated file – do not modify
+*.gen.dart
+*.g.dart
+
+# Generated plugins and dependencies
+lib/generated_plugin_registrant.dart
+lib/**.freezed.dart
+
+# FlutterFlow specific
+flutterflow.json
